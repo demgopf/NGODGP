@@ -59,3 +59,56 @@ p {
     font-size: 24px;
     max-width: 800px;
 }
+
+button {
+    background-color: #ffc107;
+    color: #002147;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ffdb4d;
+}
+
+#joinForm {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.hero {
+    background: linear-gradient(to bottom, #0057b7, #ffd700);
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    background: #f4f4f4;
+    margin-top: 20px;
+}
+
+section:nth-child(odd) {
+    background: #e0e0e0;
+}
